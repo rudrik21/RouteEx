@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                             .bearing(0)
                             .tilt(45)
                             .build();
+
                     mMap.animateCamera(CameraUpdateFactory.newCameraPosition(position));
                     mMap.addMarker(new MarkerOptions()
                             .position(userLocation)
